@@ -1,0 +1,161 @@
+<!DOCTYPE html>Beyaný bu belge bir HTML5 belge olduðunu tanýmlar
+<html>Eleman bir HTML sayfasý kök unsurudur
+<head>Eleman HTML sayfasý hakkýnda meta bilgileri içerir
+<title>Eleman (tarayýcýsýnýn baþlýk çubuðunda veya sayfanýn sekmesinde gösterilir) HTML sayfasý için bir baþlýk belirtir
+<body>Eleman belgenin beden tanýmlar ve bu gibi baþlýklar, paragraflar, görüntü, köprü, tablolar, listeler, tüm görünür içeriðiyle için bir kap olup
+<h1>Elemanýnýn büyük bir baþlýk tanýmlar
+<p>Eleman, bir paragraf tanýmlar
+
+<head>
+<title> baþlýk </title>	BU ANA BAÞLIK OLUYOR
+</head>
+<body>
+<h1> ALT BAÞLIK </h1>
+<p> BU DA PARAGRAF </p>
+</body>
+
+Tüm HTML öðelerinin nitelikleri olabilir
+href Öznitelik <a>belirttiði sayfasýnýn URL baðlantý gider
+src Öznitelik <img>belirttiði resmin yolunu görüntülenecek
+width Ve heightnitelikleri <img>görüntüler için boyut bilgileri saðlamak
+alt Öznitelik <img>bir resim için alternatif metin saðlamaktadýr
+style Nitelik, renk, yazý tipi, boyutu ve daha fazlasý gibi, bir öðeye stilleri eklemek için kullanýlýr
+lang Öznitelik <html>etiketi web sayfasýnýn dilini beyan
+title Öznitelik, öðe hakkýnda bazý ilave bilgiler tanýmlar
+
+styleHTML öðelerini biçimlendirmek için özniteliði kullanýn
+background-colorArka plan rengi için kullanýn
+colorMetin renkleri için kullanýn
+font-familyMetin yazý tipleri için kullanýn
+font-sizeMetin boyutlarý için kullanýn
+text-alignMetin hizalamasý için kullanýn
+
+<b> - Kalýn yazý
+<strong> - Önemli metin
+<i> - Ýtalik metin
+<em> - Vurgulanan metin
+<mark> - Ýþaretli metin
+<small> - Daha küçük metin
+<del> - Silinen metin
+<ins> - Eklenen metin
+<sub> - Alt simge metni
+<sup> - Üst simge metni
+
+styleSatýr içi stil için HTML özelliðini kullanýn
+<style>Dahili CSS'yi tanýmlamak için HTML öðesini kullanýn
+<link>Harici bir CSS dosyasýna baþvurmak için HTML öðesini kullanýn
+<head><style> ve <link> öðelerini depolamak için HTML öðesini kullanýn
+colorMetin renkleri için CSS özelliðini kullanýn
+font-familyMetin yazý tipleri için CSS özelliðini kullanýn
+font-sizeMetin boyutlarý için CSS özelliðini kullanýn
+borderKenarlýklar için CSS özelliðini kullanýn
+paddingKenarlýk içindeki boþluk için CSS özelliðini kullanýn
+marginSýnýrýn dýþýndaki boþluk için CSS özelliðini kullanýn
+
+Kullan <a>Bir baðlantýyý tanýmlamak öðeyi kullanýn
+Kullan hrefBaðlantý adresini tanýmlamak özniteliði
+Kullan targetBaðlantýlý belgenin nerede açýlacaðýný tanýmlamak özniteliði
+Kullaným <img>elemaný (iç <a>baðlantý olarak bir resim kullanmak)
+Kullanýcýnýn e-posta programýný açan bir baðlantý oluþturmak mailto:için hrefözelliðin içindeki þemayý kullanýn.
+
+<img>Bir görüntüyü tanýmlamak için HTML öðesini kullanýn
+srcResmin URL'sini tanýmlamak için HTML özelliðini kullanýn
+altBir resim görüntülenemiyorsa, bir resim için alternatif bir metin tanýmlamak için HTML niteliðini kullanýn.
+Resmin boyutunu tanýmlamak için HTML widthve heightnitelikleri veya CSS widthve heightözellikleri kullanýn
+floatResmin sola veya saða kaymasýna izin vermek için CSS özelliðini kullanýn
+
+<map>Bir görüntü haritasý tanýmlamak için HTML öðesini kullanýn
+<area>Görüntü haritasýndaki týklanabilir alanlarý tanýmlamak için HTML öðesini kullanýn
+Bir görüntü haritasýna iþaret etmek usemapiçin <img>öðenin HTML niteliðini kullanýn
+
+<table>Bir tablo tanýmlamak için HTML öðesini kullanýn
+<tr>Bir tablo satýrý tanýmlamak için HTML öðesini kullanýn
+<td>Bir tablo verisi tanýmlamak için HTML öðesini kullanýn
+<th>Bir tablo baþlýðý tanýmlamak için HTML öðesini kullanýn
+<caption>Bir tablo baþlýðý tanýmlamak için HTML öðesini kullanýn
+borderBir kenarlýk tanýmlamak için CSS özelliðini kullanýn
+border-collapseHücre kenarlýklarýný daraltmak için CSS özelliðini kullanýn
+paddingHücrelere dolgu eklemek için CSS özelliðini kullanýn
+text-alignHücre metnini hizalamak için CSS özelliðini kullanýn
+border-spacingHücreler arasýndaki boþluðu ayarlamak için CSS özelliðini kullanýn
+colspanBir hücrenin birçok sütuna yayýlmasýný saðlamak için özniteliði kullanýn
+rowspanBir hücrenin birçok satýra yayýlmasýný saðlamak için özniteliði kullanýn
+idBir tabloyu benzersiz bir þekilde tanýmlamak için özniteliði kullanýn
+
+<ul>	Defines an unordered list
+<ol>	Defines an ordered list
+<li>	Defines a list item
+<dl>	Defines a description list
+<dt>	Defines a term in a description list
+<dd>	Describes the term in a description list
+
+type="1"	The list items will be numbered with numbers (default)
+type="A"	The list items will be numbered with uppercase letters
+type="a"	The list items will be numbered with lowercase letters
+type="I"	The list items will be numbered with uppercase roman numbers
+type="i"	The list items will be numbered with lowercase roman numbers
+
+<ol>Sýralý bir liste tanýmlamak için HTML öðesini kullanýn
+typeNumaralandýrma türünü tanýmlamak için HTML niteliðini kullanýn
+<li>Bir liste öðesi tanýmlamak için HTML öðesini kullanýn
+Listeler iç içe olabilir
+Liste öðeleri baþka HTML öðeleri içerebilir
+
+<dl>Bir açýklama listesi tanýmlamak için HTML öðesini kullanýn
+<dt>Açýklama terimini tanýmlamak için HTML öðesini kullanýn
+<dd>Bir açýklama listesinde terimi tanýmlamak için HTML öðesini kullanýn
+
+Ýki görüntü deðeri vardýr: blok ve satýr içi
+Blok düzeyinde bir öðe her zaman yeni bir satýrda baþlar ve mevcut tüm geniþliði kaplar
+Satýr içi öðe yeni bir satýrda baþlamaz ve yalnýzca gerektiði kadar geniþlik kaplar
+<div>Eleman, bir blok düzeyi ve genellikle diðer HTML elemanlarý için bir kap olarak kullanýlan
+<span>Eleman bir metnin bir kýsmýný iþaretlemek için kullanýlan bir satýr içi konteyner ya da bir belgenin bir parçasýdýr
+
+id Niteliði HTML elemaný için benzersiz bir kimlik belirtmek için kullanýlýr
+Özelliðin deðeri id , HTML belgesinde benzersiz olmalýdýr
+id Nitelik stiline CSS ve JavaScript tarafýndan kullanýlan / belli bir elemaný seçmek
+Özelliðin deðeri büyük/ id küçük harfe duyarlýdýr
+id Nitelik ayrýca HTML iþaretleri oluþturmak için kullanýlýr
+JavaScript ile belirli kimlikli bir öðe eriþebilir getElementById() yöntemle
+
+HTML <iframe>etiketi bir satýr içi çerçeve belirtir
+src Nitelik gömmek üzere sayfanýn URL'sini tanýmlar
+Her zaman bir titleöznitelik ekleyin (ekran okuyucular için)
+heightVe widthbelirtir iframe boyutunu baðlýyor
+border:none;iframe etrafýndaki kenarlýðý kaldýrmak için kullanýn
+
+<img src="resim.jpg">	"resim.jpg" dosyasý, geçerli sayfayla ayný klasörde bulunur
+<img src="images/resim.jpg">	"Picture.jpg" dosyasý, geçerli klasördeki resimler klasöründe bulunur.
+<img src="/images/resim.jpg">	"Picture.jpg" dosyasý, geçerli web'in kökündeki resimler klasöründe bulunur.
+<img src="../resim.jpg">	"Picture.jpg" dosyasý, geçerli klasörden bir seviye yukarý olan klasörde bulunur.
+
+<head>Eleman meta verileri için bir kap (veri hakkýnda veri)
+<head>Eleman arasýna yerleþtirilir <html>etiket ve <body>etiketi
+<title>Eleman gerekli olmaktadýr ve belgenin baþlýk tanýmlar,
+<style>Eleman tek belge için stil bilgileri tanýmlamak için kullanýlýr
+<link> Etiket en sýk dýþ stil sayfalarý için baðlantýyý için kullanýlýr
+<meta>Eleman tipik karakter kümesi, sayfa açýklamasý, anahtar kelimeleri belgenin yazarý ve viewport ayarlarýný belirtmek için kullanýlýr
+<script>Elemaný, müþteri tarafý JavaScript'lerini tanýmlamak için kullanýlýr
+<base>Eleman bir sayfadaki tüm göreli URL'ler için temel URL ve / veya hedef belirler
+<head>	Defines information about the document
+
+<title>	Defines the title of a document
+<base>	Defines a default address or a default target for all links on a page
+<link>	Defines the relationship between a document and an external resource
+<meta>	Defines metadata about an HTML document
+<script>	Defines a client-side script
+<style>	Defines style information for a document
+
+<header> - Bir belge veya bölüm için bir baþlýk tanýmlar
+<nav> - Bir dizi gezinme baðlantýsý tanýmlar
+<section> - Belgedeki bir bölümü tanýmlar
+<article> - Baðýmsýz, kendi kendine yeten bir içerik tanýmlar
+<aside> - Ýçeriði içerikten ayrý olarak tanýmlar (kenar çubuðu gibi)
+<footer> - Bir belge veya bölüm için bir alt bilgi tanýmlar
+<details> - Kullanýcýnýn isteðe baðlý olarak açýp kapatabileceði ek ayrýntýlarý tanýmlar
+<summary>- <details>Öðe için bir baþlýk tanýmlar
+<code>	Defines programming code
+<kbd>	Defines keyboard input 
+<samp>	Defines computer output
+<var>	Defines a variable
+<pre>	Defines preformatted text
